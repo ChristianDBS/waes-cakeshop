@@ -1,0 +1,146 @@
+html { font:500 14px/150% "Open Sans", sans-serif; }
+
+body {
+    margin:0;
+    padding:0;
+}
+
+#App {
+    width:100%;
+    height:100%;
+    position: absolute;
+}
+
+#App .bg-landscape {
+    width:100%;
+    height:100%;
+    background-image:url('../img/bridge.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    filter:blur(2px)
+}
+
+#App #form-env {
+    width:450px;
+    height: auto;
+    padding:40px 50px;
+    box-sizing:border-box;
+    background-color:#FFF;
+    box-shadow:0 15px 20px rgba(0,0,0,.2);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius:3px;
+}
+
+#App #form-env .input {
+    width:100%;
+    height:auto;
+    padding:10px 0;
+    margin:10px 0;
+    position: relative;
+}
+
+#App #form-env .input .label {
+    width:100%;
+    height:auto;
+    display:flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: -1;
+}
+
+#App #form-env .input .label i {
+    margin-top:11px;
+}
+
+#App #form-env .input input[type="text"], input[type="password"] {
+    width:100%;
+    height:auto;
+    padding:4px 5px;
+    box-sizing:border-box;
+    background:transparent;
+    border:none;
+    outline:none;
+    font-size:1.2rem;
+    border-bottom:1px solid #AAA;
+}
+
+#App #form-env .custom-options {
+    width:100%;
+    height: 60px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#App #form-env .action-options {
+    width:100%;
+    height: auto;
+    padding:18px 0;
+}
+
+#App #form-env .action-options button {
+    padding:10px 24px;
+    border:none;
+    border-radius:30px;
+    outline:none;
+    background:#0066ff;
+    color:#FFF;
+    font-size:1.4rem;
+    box-shadow:0 15px 20px rgba(0,0,0,.2);
+    cursor:pointer;
+}
+
+#App #form-env .log-options {
+    width:100%;
+    height:auto;
+    margin-top:30px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#App #form-env .log-options .social {
+    width:60%;
+    height:auto;
+    display:flex;
+    justify-content:space-between;
+}
+
+#App #form-env .log-options .social button {
+    padding:10px 0;
+    width:30%;
+    border:none;
+    border-radius:30px;
+    outline:none;
+    background:#00a2ff;
+    color:#FFF;
+    cursor:pointer;
+}
+
+#App #form-env .log-options .social button:first-of-type {
+    background:#0066ff;
+}
+
+#App #form-env .log-options .social button:last-of-type {
+    background:tomato;
+}
+
+
+a {
+    text-decoration:none;
+    color:#0066ff;
+}
+select{
+    width:100%;
+    height:auto;
+    padding:4px 5px;
+    box-sizing:border-box;
+    background:transparent;
+    border:none;
+    outline:none;
+    font-size:1.2rem;
+    border-bottom:1px solid #AAA;
+}

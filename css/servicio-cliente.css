@@ -1,0 +1,221 @@
+body {
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+	padding: 0;
+    
+}
+
+.container-header {
+    background-color: #3c82dd;
+ 
+    width: 100%;
+    color: white;
+}
+
+header {
+    display: flex;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.banner {
+    display: flex;
+    margin: 10px;
+    margin-bottom: 0;
+    justify-content: space-between;
+}
+
+.social-media {
+    margin: 0;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-media-list {
+    display: flex;
+    margin: 0;
+}
+
+.social-media-item {
+    margin: 0px 10px;
+    height: 35px;
+}
+
+.iniciar-sesion {
+    border-radius: 20px;
+    background-color: white;
+    height: 35px;
+    width: 110px;
+    border-style: none;
+}
+
+.link-iniciar-sesion {
+    color: #3c82dd;
+    font-size: 14px;
+}
+
+.div-titulo {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    font-family: cursive, Brush Script MT;
+    font-style: italic;
+    font-size: 45px;
+}
+
+.logo {
+    border-radius: 50%;
+}
+
+.navbar-list {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+.div-buscar {
+    display: flex;
+}
+
+.divnav {
+    margin: 0;
+}
+
+.item-navbar {
+    padding: 5px 50px 15px;
+    font-size: 20px;
+    font-family: "PTSans";
+}
+
+main{
+    margin-top: 230px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+p {
+    margin-top: 25px;
+}
+
+.info-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.formulario {
+    background-color: rgba(172, 169, 168, 0.6);
+    width: 70%;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.titulo-form {
+    font-size: 20px;
+    text-align: center;
+}
+
+.nombre-form {
+    width: 100%;
+    height: 25px;
+    font-size: 16px;
+}
+
+.form-1 {
+    display: flex;
+    width: 100%;
+}
+
+.form-2 {
+    width: 50%;
+    padding: 8px;
+}
+
+.form-3{
+    width: 100%;
+}
+
+label {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.input-form {
+    width: 100%;
+    height: 29px;
+    font-size: 16px;
+}
+
+.input-textarea {
+    width: 100%;
+    margin: 10px 0px;
+}
+
+select {
+    width: 100%;
+    height: 35px;
+    font-size: 16px;
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+    font-size: 18px;
+}
+
+.div-enviar {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.enviar {
+    height: 40px;
+    width: 100px;
+    background-color: #eb2a2a;
+    color: white;
+    font-size: 20px;
+    border-style: none;
+}
+
+.footer {
+    display: flex;
+}
+
+footer {
+    background-color: #3c82dd;
+}
+
+.footer-1 {
+    width: 50%;
+    margin: 0px 40px;
+}
+
+.copyright {
+    margin: 0;
+    text-align: center;
+}
